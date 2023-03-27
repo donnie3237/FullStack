@@ -1,0 +1,26 @@
+.header{
+    background-color: blue;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    .logo{
+        margin-left: 5%;
+    }
+    .bar{
+        width: 80%;
+        flex-direction: row;
+        background-color: red;
+        a{
+            width: calc(100% / 3);
+            background-color: red;
+            height: 100%;
+            color: white;
+            &.active{
+                background-color: black;
+            }
+        }
+    }
+}

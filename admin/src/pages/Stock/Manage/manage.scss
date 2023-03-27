@@ -1,0 +1,19 @@
+.manage{
+    height: 100%;
+    margin-top: 150px;
+    background-color: black;
+    input{
+        width: 80%;
+        height: 40px;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    table{
+        width: 80vw;
+        background-color: rgb(56, 56, 56);
+        border-radius: 5px;
+        thead{
+            background-color: rgb(243, 128, 128);
+        }
+    }
+}

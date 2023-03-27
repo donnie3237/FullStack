@@ -1,0 +1,20 @@
+.Login{
+    .from{
+        width: 100vw;
+        height: 100vh;
+        background-color: white;
+        color: black;
+        input{
+            width: 80%;
+            max-width: 500px;
+            height: 50px;
+            margin-top: 10px;
+            outline: none;
+            padding: 5px 5%;
+        }
+        button{
+            width: 80%;
+            margin-top: 10px;
+        }
+    }
+}

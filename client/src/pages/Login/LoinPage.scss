@@ -1,0 +1,45 @@
+
+.login{
+    flex-direction: row;
+    .intro{
+        text-align: left;
+        width: 70%;
+        height: 100vh;
+        background-color: rgb(151, 0, 138);
+        p{
+            width: 80%;
+        }
+        h2{
+            margin-top: 20px;
+            width: 80%;
+        }
+    }
+    .from{
+        width: 30%;
+        height: 100vh;
+        img{
+            width: 150px;
+            height: 150px;
+        }
+        h1{
+            margin-bottom: 20px;
+        }
+        input{
+            width: 80%;
+            max-width: 500px;
+            height: 40px;
+            margin: 5px 0;
+            padding: 0 10px;
+            border: 1px solid white;
+            outline: none;
+        }
+        button{
+            width: 80%;
+            max-width: 500px;
+            height: 40px;
+            margin-top: 10px;
+            border-radius: none;
+        }
+    }
+    
+}
