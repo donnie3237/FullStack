@@ -21,7 +21,7 @@ function Profile() {
             <h1>เปลี่ยนแปลงข้อมูล</h1>
         </div>
         <Chat/>
-        <button onClick={Logout}>Logout</button>
+        <button className='logout' onClick={Logout}>Logout</button>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 .profile{
     width: 100vw;
-    height: 100vh;
+    height: 100%;
     .change{
+        margin-top: 100px;
         width: 80vw;
         height: 300px;
         background-color: blue;
@@ -9,5 +10,8 @@
     button{
         width: 80vw;
         height: 40px;
+    }
+    .logout{
+        margin-bottom: 100px;
     }
 }
